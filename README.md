@@ -2,7 +2,7 @@
 This project scrapes IMDb for 2024 movies' names &amp; storylines using Selenium. Preprocesses text with NLP (TF-IDF/CountVectorizer), computes cosine similarity for recommendations. Interactive Streamlit UI lets users input a storyline &amp; get top 5 similar movies.
 
 ## _Approaches of the project_
----
+
 ## TASK 1:- Data Scraping and Storage:
 
 * Data Source: IIMDb 2024 Movies page (link).
@@ -14,8 +14,9 @@ This project scrapes IMDb for 2024 movies' names &amp; storylines using Selenium
     - Movie Name
     - Storyline
 * CSV Storage: Save the data in a CSV format for easy data manipulation.
+
 ## TASK 2: Data Preprocessing and Analysis:
----
+
 * Text Cleaning (NLP):
     - Preprocess the storyline text by removing stop words, punctuation, and unnecessary characters.
     - Tokenize the story text for further analysis.
@@ -25,3 +26,7 @@ This project scrapes IMDb for 2024 movies' names &amp; storylines using Selenium
     - Calculate the Cosine Similarity between the movie storylines to find the most similar movies.
     - Rank the movies based on similarity scores.
 
+## TASK 3: Recommendation System:
+
+* ***Algorithm:*** Use Cosine Similarity or other ML algorithms to find the top 5 most similar movies based on a user’s input.
+* ***User Input:*** Users will be able to input a movie storyline into the Streamlit app, and the system will output the top 5 recommended movies based on storyline similarity.
