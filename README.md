@@ -1,2 +1,27 @@
 # IMDB-Movie-Recommendation-System-Using-Storylines
 This project scrapes IMDb for 2024 movies' names &amp; storylines using Selenium. Preprocesses text with NLP (TF-IDF/CountVectorizer), computes cosine similarity for recommendations. Interactive Streamlit UI lets users input a storyline &amp; get top 5 similar movies.
+
+## _Approaches of the project_
+---
+## TASK 1:- Data Scraping and Storage:
+
+* Data Source: IIMDb 2024 Movies page (link).
+* Scraping Method: Use Selenium to extract the following data:
+    - Movie Name
+    - Storyline (Plot Summary)
+* Data Storage: Save the extracted movie data into a CSV file for further analysis.
+    - Columns:
+    - Movie Name
+    - Storyline
+* CSV Storage: Save the data in a CSV format for easy data manipulation.
+## TASK 2: Data Preprocessing and Analysis:
+---
+* Text Cleaning (NLP):
+    - Preprocess the storyline text by removing stop words, punctuation, and unnecessary characters.
+    - Tokenize the story text for further analysis.
+* Text Representation:
+    - Use TF-IDF Vectorizer or Count Vectorizer to convert the movie storylines into numerical vectors.
+* Cosine Similarity:
+    - Calculate the Cosine Similarity between the movie storylines to find the most similar movies.
+    - Rank the movies based on similarity scores.
+
