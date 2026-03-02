@@ -1,0 +1,12 @@
+ipykernel
+pandas
+numpy
+matplotlib
+seaborn
+selenium
+beautifulsoup4
+nltk
+scikit-learn
+streamlit
+torch
+sentence-transformers
