@@ -30,3 +30,5 @@ This project scrapes IMDb for 2024 movies' names &amp; storylines using Selenium
 
 * ***Algorithm:*** Use Cosine Similarity or other ML algorithms to find the top 5 most similar movies based on a user’s input.
 * ***User Input:*** Users will be able to input a movie storyline into the Streamlit app, and the system will output the top 5 recommended movies based on storyline similarity.
+
+> I have done these steps in the web_scraper.jpynb file at my repository.
