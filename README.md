@@ -45,6 +45,6 @@ This project scrapes IMDb for 2024 movies' names &amp; storylines using Selenium
 
 > _I have done these steps in the web_scraper.jpynb file at my repository._
 >
-> Also, the class based codes are available in this repository. So that you can reuse and reproduce it in your own way. The main aim of the code is to create a package for this project.
+> _Also, the class based codes are available in this repository. So that you can reuse and reproduce it in your own way. The main aim of the code is to create a package for this project._
 
 ### Hence this project has been completed successfully 😎🙏🏾
