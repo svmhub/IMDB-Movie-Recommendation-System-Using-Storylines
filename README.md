@@ -6,8 +6,8 @@ This project scrapes IMDb for 2024 movies' names &amp; storylines using Selenium
 * The whole project is developed by Python-3.10.5 Version
 * The each file has been treated in the VS Code Editor
 * I have creaed a Python virtual environment.
-      - The packages are in the requirements.txt file installed on the virtual environment.
-      - The same environment has been used throughout the project completion.
+  - The packages are in the requirements.txt file installed on the virtual environment.
+  - The same environment has been used throughout the project completion.
 
 ## _Approaches of the project_
 
